@@ -20,6 +20,9 @@ public class User {
     
     @Column(name = "email")
     private String email;
+    
+    @Column(name = "number")
+    private String number;
 
     public Long getId() {
         return id;
